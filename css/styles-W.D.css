@@ -1,0 +1,100 @@
+@charset "utf-8";
+main {
+    margin-top: 35px;
+}
+
+
+main p {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-top: 1px;
+
+}
+main p a {
+    display: inline-block;
+    color: #FF0000;
+    font-weight: 400;
+    font-size: large;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Anisette Std Petite", pt-sans;
+}
+main p a:hover {
+    color: #FFCE00;
+    text-decoration: none;
+}
+.main-border-right {
+    border-right: 3px double #FFCE00;
+    padding-right: 10px;
+}
+
+div .row {
+    text-align: center;
+}
+.row-margin {
+    margin-bottom: -14px;
+    margin-top: 7px;
+
+
+
+}
+.last-of-type {
+    margin-bottom: 0px;
+}
+.div-main-bg {
+    padding-top: 0px;
+    margin-top: 10px;
+    background-image: url(../images/background-2.jpg);
+    -webkit-box-shadow: 0px 0px 10px rgba(255,206,0,1.00);
+    box-shadow: 0px 0px 10px rgba(255,206,0,1.00);
+    margin-bottom: 24px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border: thin solid rgba(43,44,124,1.00);
+    border-radius: 0px;
+    background-color: rgba(43,44,124,1.00);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1124px auto;
+
+
+}
+.div-bg-main {
+}
+
+video {
+    margin-top: 35px;
+}
+.noClear {
+    margin-top: -2px;
+}
+
+
+h1 {
+    color: rgba(255,206,0,1.00);
+    font-size: 76px;
+}
+ul {
+    color: rgba(255,0,0,1.00);
+    margin-top: 43px;
+}
+ul li a {
+    color: rgba(255,206,0,1.00);
+    font-family: "Anisette Std Petite", pt-sans;
+    font-weight: 700;
+}
+ul li a:hover {
+    text-shadow: 1px 1px 5px rgba(255,0,0,1.00);
+    text-decoration: none;
+    color: rgba(255,206,0,1.00);
+
+}
+.icon-margin-web {
+
+
+
+
+
+}

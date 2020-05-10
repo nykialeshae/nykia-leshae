@@ -1,0 +1,144 @@
+@charset "utf-8";
+main {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 745px auto;
+    background-image: url(url);
+}
+
+
+.main-bg-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 597px;
+    -webkit-box-shadow: 0px 0px 30px -7px #FFCE00;
+    border-radius: 47px;
+    box-shadow: 0px 0px 30px -7px #FFCE00;
+    margin-right: 19px;
+    margin-left: 19px;
+    background-size: cover;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+.logo {
+    margin-top: 33px;
+
+}
+.logo-div   {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-left: 62px;
+}
+
+.main-bg-img-sm {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 439px auto;
+    height: 553px;
+}
+.logo-sm {
+    margin-top: 33px;
+    width: auto;
+    height: 427px;
+}
+.logo-div-ms {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1200px){
+}
+@media (min-width:992px){
+}
+@media (min-width:768px){
+.main-bg-img-sm {
+    background-size: 708px 549px;
+}
+.quote-div {
+    margin-left: 486px;
+    margin-top: -392px;
+    color: #FFCE00;
+    font-family: "Anisette Std Petite", pt-sans;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #FF0000;
+    text-align: center;
+}
+.quote-div-name {
+    margin-left: 486px;
+    margin-top: 22px;
+    color: #FFCE00;
+    font-family: "Anisette Std Petite", pt-sans;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #FF0000;
+    text-align: center;
+}
+.logo-div-md {
+    margin-left: 48px;
+    padding-top: 33px;
+    text-decoration: underline;
+}
+.quote-div-md {
+    margin-left: 414px;
+    margin-top: -362px;
+    color: #FFCE00;
+    font-family: "Anisette Std Petite", pt-sans;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #FF0000;
+    text-align: center;
+}
+.quote-div-name-md {
+    margin-left: 414px;
+    margin-top: 22px;
+    color: #FFCE00;
+    font-family: "Anisette Std Petite", pt-sans;
+    font-size: 23px;
+    text-shadow: 2px 2px 4px #FF0000;
+    text-align: center;
+}
+
+
+
+
+
+
+
+}
+@media (min-width:576px){
+.logo-div-md {
+    margin-left: 48px;
+    padding-top: 33px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+
+
+}
+@media (max-width:575.98px){
+.logo-div-md {
+    margin-left: 48px;
+    padding-top: 33px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+}

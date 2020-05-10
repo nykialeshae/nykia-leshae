@@ -1,0 +1,57 @@
+@charset "utf-8";
+h1 {
+    text-align: center;
+    color: #FFCE00;
+    font-family: "Anisette Std Petite", pt-sans;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px #FF0000;
+    text-decoration: underline;
+    margin-top: 20px;
+    font-size: 50px;
+}
+p {
+}
+.row .col-lg-4.text-left p {
+    margin-left: 111px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.p-border-btm {
+    border-bottom: thin solid rgba(255,206,0,1.00);
+    text-align: left;
+    font-size: large;
+}
+.checkout-btn {
+    width: 241px;
+    margin-bottom: 18px;
+    margin-top: 36px;
+}
+.cart-item-image {
+    float: left;
+}
+.cart-quantity-input {
+    width: 44px;
+    margin-top: 22px;
+}
+.cart-price {
+    margin-top: 28px;
+}
+h4 {
+    margin-top: 11px;
+}
+h4 a {
+    color: rgba(255,206,0,1.00);
+}
+h4 a:hover {
+    color: rgba(255,0,0,1.00);
+    text-decoration: none;
+}
+.row-margin {
+    margin-bottom: 15px;
+    background-color: rgba(255,0,0,0.40);
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}

@@ -1,0 +1,160 @@
+@charset "utf-8";
+body {
+    background-image: url(../images/background-2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+img.bg {
+    min-height: 100%;
+    min-width: 1200px;
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 0px 0px;
+}
+/*nav styles here (globla)*/
+nav {
+    border-bottom: medium double #FFCE00;
+    margin-top: 10px;
+}
+nav p {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-top: 1px;
+}
+
+nav p a {
+    color: #FF0000;
+    display: inline-block;
+    font-weight: 400;
+    font-size: large;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Anisette Std Petite", pt-sans;
+}
+nav p a:hover {
+    color: #FFCE00;
+    text-decoration: none;
+}
+
+nav p:last-of-type {
+
+}
+
+.nav-border-right {
+    border-right: 3px double #FFCE00;
+    padding-right: 10px;
+}
+.nav-margin {
+    margin-left: 25px;
+}
+.icon-margin {
+    padding-left: 13px;
+    margin-left: 347px;
+    word-spacing: 12px;
+}
+
+
+.main-bg {
+
+}
+
+.bg-img {
+    height: 543px;
+}
+
+.img-logo {
+    width: 331px;
+    margin-top: 90px;
+}
+.row .col-lg-12 p {
+}
+footer {
+    border-top: medium double #FFCE00;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+footer p {
+    color: #FFCE00;
+    font-family: "Anisette Std Petite", pt-sans;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+    margin-top: 4px;
+    background-image: url(url);
+}
+.footer-icons {
+    text-align: center;
+    margin-top: -12px;
+    padding-bottom: 7px;
+    word-spacing: 42px;
+
+}
+.text-center {
+}
+
+.img-size {
+    width: auto;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.img-position {
+    margin-top: -47px;
+}
+
+@media (min-width: 1200px) {
+	.icon-margin {
+    padding-left: 58px;
+    right: -115px;
+	}
+.nav-margin {
+
+}
+
+}
+
+@media (max-width:575.98px){
+.nav-margin {
+    text-align: center;
+    margin-left: 0px;
+}
+
+}
+
+@media (min-width:576px){
+.nav-margin {
+    text-align: center;
+    margin-left: 0px;
+}
+
+}
+
+@media (min-width:768px){
+.icon-margin {
+    margin-top: -49px;
+    padding-left: 143px;
+}
+.nav-margin {
+    text-align: left;
+
+}
+
+
+}
+
+@media (min-width:992px){
+.icon-margin {
+    word-spacing: 12px;
+    margin-top: 0px;
+    padding-left: 13px;
+    margin-left: 400px;
+}
+
+}
